@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff9565;
+  background: #7195ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2304,4 +2304,21 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+body {
+  background: url("/images/cloud1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.main-inner {
+  margin-top: 60px;
+  background: #fff;
+  opacity: 0.95;
+  padding: 30px 60px 60px 60px;
+  min-height: 500px;
+}
+.header-inner {
+  opacity: 0.95;
 }
